@@ -4,7 +4,9 @@
   "description": "",
   "main": "Question1.js",
   "dependencies": {
-    "mocha": "^5.2.0"
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "supertest": "^3.1.0"
   },
   "devDependencies": {},
   "scripts": {
