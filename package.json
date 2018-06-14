@@ -1,0 +1,23 @@
+{
+  "name": "spotify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Question1.js",
+  "dependencies": {
+    "mocha": "^5.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shannenye/spotify.git"
+  },
+  "author": "Shannen Ye",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shannenye/spotify/issues"
+  },
+  "homepage": "https://github.com/shannenye/spotify#readme"
+}
