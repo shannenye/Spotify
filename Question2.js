@@ -22,7 +22,7 @@ let decodeString = (s) => {
                 i++;
             }
             i--; // make sure you go back to where you left off in the for loop!
-            numToRepeat.push(parseInt(num));
+            numToRepeat.push(parseInt(num)); // add to your arr to know how many times to repeat a string
         } else if (s[i] === "[") {
             let strToRepeat = "";
             i++;
