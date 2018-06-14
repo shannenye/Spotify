@@ -22,7 +22,7 @@ let decodeString = (s) => {
                 i++;
             }
             i--; // make sure you go back to where you left off in the for loop!
-            numToRepeat.push(parseInt(num)); // add to your arr to know how many times to repeat a string
+            numToRepeat.push(parseInt(num));
         } else if (s[i] === "[") {
             let strToRepeat = "";
             i++;
@@ -58,8 +58,8 @@ let decodeString = (s) => {
 }
 
 console.log(decodeString("4[ab]"));
-// correct output: "abababab"
+// // correct output: "abababab"
 console.log(decodeString("2[b3[a]]"));
-// correct output: "baaabaaa"
-console.log(decodeString("2[abcd]3[ef]gh"));
-// correct output: "abcdabcdefefefgh"
+// // correct output: "baaabaaa"
+console.log(decodeString("2[abc]3[cd]1[ef]"));
+// correct output: "abcabccdcdcdef"
