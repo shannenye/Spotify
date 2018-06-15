@@ -57,9 +57,4 @@ let decodeString = (s) => {
     return finalWord;
 }
 
-console.log(decodeString("4[ab]"));
-// // correct output: "abababab"
-console.log(decodeString("2[b3[a]]"));
-// // correct output: "baaabaaa"
-console.log(decodeString("2[abc]3[cd]1[ef]"));
-// correct output: "abcabccdcdcdef"
+module.exports = decodeString;

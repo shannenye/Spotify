@@ -24,7 +24,4 @@ let changePossibilities = (amount, arr) => {
     return numOfPossibilites[amount];
 }
 
-console.log(changePossibilities(4, [1,2,3]));
-// 4
-console.log(changePossibilities(10, [1,2,5]));
-// 10
+module.exports = changePossibilities;
